@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE pages SYSTEM "D:/java work/xmlResource.dtd">
+<pages>
+    <page ID="index" title="你好" path="index.html" >
+		<div>
+		    <form ref="login" layout="center" type="get"></form>
+		</div>
+    </page>
+    
+    <Conntorneres>
+        
+		<Conntorner ID="login">
+		    <url>login</url>
+		    <parms>
+		        <parm type="text">userName</parm>
+		        <parm type="password" pattern="^\d{6,}$">password</parm>
+		    </parms>
+		</Conntorner>
+		
+		
+		<Conntorner ID="sign">
+		    <url>sign</url>
+		    <parms>
+		        <parm >账户</parm>
+		        <parm type="password">密码</parm>
+		    
+		    </parms>
+		</Conntorner>
+		
+		
+    </Conntorneres>
+
+</pages>
